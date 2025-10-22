@@ -5,7 +5,7 @@ export const SELECTORS = {
   get filterItemContainer() {
     return document.querySelector(".filter-item-container");
   },
-  get removeIcon() {
-    return document.querySelector(".remove-icon-container");
+  get filterItem() {
+     return document.querySelector(".filter-item");
   }
 };

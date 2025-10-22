@@ -8,6 +8,10 @@
     transform: translateY(-2rem);
 }
 
+.filter-item-container.empty{
+    padding: 0;
+}
+
 .filter-item {
     display: flex;
     align-items: center;
