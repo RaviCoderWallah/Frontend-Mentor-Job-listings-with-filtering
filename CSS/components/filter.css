@@ -7,6 +7,7 @@
     max-width: var(--max-width);
     margin-inline: auto;
     transform: translateY(-2rem);
+    box-shadow: var(--box-shadow);
 }
 
 .filter-item-container.empty{

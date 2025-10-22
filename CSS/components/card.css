@@ -17,6 +17,8 @@
     padding-block: .5rem;
     border-radius: .2rem;
     width: 100%;
+
+    box-shadow: var(--box-shadow);
 }
 
 .company-logo img {

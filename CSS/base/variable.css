@@ -20,5 +20,8 @@
 
     /* LAYOUT  */
     --max-width: 950px;
+
+    /* BOX SHADOW  */
+    --box-shadow: 0 6px 10px hsl(180, 8%, 82%);;
 }
 
