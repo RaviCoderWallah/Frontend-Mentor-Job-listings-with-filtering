@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    max-width: 950px;
+    max-width: var(--max-width);
     margin-inline: auto;
     margin-block-start: 4rem;
     padding-inline: .5rem;
@@ -47,6 +47,13 @@
     font-weight: var(--font-weight-bold);
     cursor: pointer;
     margin: 0;
+
+    transition: background-color 0.2s ease-in-out;
+}
+
+.filter-list-container p:hover{
+    background-color: var(--clr-primary-green);
+    color: var(--clr-green-50);
 }
 
 .company-name {

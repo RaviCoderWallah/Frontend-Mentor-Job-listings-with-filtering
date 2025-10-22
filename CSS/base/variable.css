@@ -17,5 +17,8 @@
 
     --font-weight-medium: 500;
     --font-weight-bold: 700;
+
+    /* LAYOUT  */
+    --max-width: 950px;
 }
 

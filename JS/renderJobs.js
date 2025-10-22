@@ -3,7 +3,7 @@ import { SELECTORS } from "./constants/selectors.js"
 import { meregedArr } from "./utils/helper.js";
 
 
-export const renderJobs = (jobData, clickItemList) => {
+export const renderJobs = (jobData, clickItemList, renderFilterItem) => {
     let jobListingCardContent = `
             <div class="job-listing-card__details">
                 <div class="company-logo">
@@ -56,6 +56,7 @@ export const renderJobs = (jobData, clickItemList) => {
         if (e.target.classList.contains("skills")) {
             const clickSkills = e.target.textContent;
            clickItemList.push(clickSkills);
+           renderFilterItem();
            console.log(clickItemList)
         }
     });
