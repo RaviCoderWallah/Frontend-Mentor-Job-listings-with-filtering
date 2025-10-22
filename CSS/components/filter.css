@@ -1,5 +1,6 @@
 .filter-item-container {
     display: flex;
+    flex-wrap: wrap;
     background-color: var(--clr-white);
     gap: 2rem;
     padding: 1rem;
